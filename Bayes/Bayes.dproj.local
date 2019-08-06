@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/02/10 21:19:35.000.640,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/10 21:22:14.000.406,=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/02/10 21:35:24.000.454,D:\STMIK Handayani\Delphi\Bayes\uDiagnosa.dfm=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2018/02/10 21:35:24.000.454,D:\STMIK Handayani\Delphi\Bayes\uDiagnosa.pas=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/02/10 21:35:27.000.707,D:\STMIK Handayani\Delphi\Bayes\uDM.pas=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/02/10 21:35:27.000.707,D:\STMIK Handayani\Delphi\Bayes\uDM.dfm=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2018/02/10 21:35:34.000.213,D:\STMIK Handayani\Delphi\Bayes\Bayes.dproj=C:\Users\ASUS\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/02/13 23:18:32.000.306,=D:\STMIK Handayani\Delphi\Bayes\Unit1.pas</Transaction>
+    <Transaction>2018/02/13 23:39:26.000.738,D:\STMIK Handayani\Delphi\Bayes\Unit1.pas=D:\STMIK Handayani\Delphi\Bayes\uMenuUtama.pas</Transaction>
+    <Transaction>2018/02/13 23:39:26.000.738,D:\STMIK Handayani\Delphi\Bayes\Unit1.dfm=D:\STMIK Handayani\Delphi\Bayes\uMenuUtama.dfm</Transaction>
+    <Transaction>2018/02/13 23:52:34.000.229,=D:\STMIK Handayani\Delphi\Bayes\Unit1.pas</Transaction>
+    <Transaction>2018/02/13 23:56:16.000.409,D:\STMIK Handayani\Delphi\Bayes\uPenyakit.dfm=D:\STMIK Handayani\Delphi\Bayes\Unit1.dfm</Transaction>
+    <Transaction>2018/02/13 23:56:16.000.409,D:\STMIK Handayani\Delphi\Bayes\uPenyakit.pas=D:\STMIK Handayani\Delphi\Bayes\Unit1.pas</Transaction>
+    <Transaction>2018/02/13 23:59:15.000.822,=D:\STMIK Handayani\Delphi\Bayes\Unit1.pas</Transaction>
+    <Transaction>2018/02/14 00:00:13.000.995,D:\STMIK Handayani\Delphi\Bayes\uGejala.dfm=D:\STMIK Handayani\Delphi\Bayes\Unit1.dfm</Transaction>
+    <Transaction>2018/02/14 00:00:13.000.995,D:\STMIK Handayani\Delphi\Bayes\uGejala.pas=D:\STMIK Handayani\Delphi\Bayes\Unit1.pas</Transaction>
+    <Transaction>2018/02/14 00:21:28.000.535,=D:\STMIK Handayani\Delphi\Bayes\Unit1.pas</Transaction>
+    <Transaction>2018/02/14 00:22:49.000.110,D:\STMIK Handayani\Delphi\Bayes\Unit1.pas=D:\STMIK Handayani\Delphi\Bayes\uRule.pas</Transaction>
+    <Transaction>2018/02/14 00:22:49.000.110,D:\STMIK Handayani\Delphi\Bayes\Unit1.dfm=D:\STMIK Handayani\Delphi\Bayes\uRule.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

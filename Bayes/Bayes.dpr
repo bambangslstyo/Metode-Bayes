@@ -1,0 +1,27 @@
+program Bayes;
+
+uses
+  Vcl.Forms,
+  uDiagnosa in 'uDiagnosa.pas' {foDiagnosa},
+  uDM in 'uDM.pas' {dm: TDataModule},
+  uMenuUtama in 'uMenuUtama.pas' {foUtama},
+  Vcl.Themes,
+  Vcl.Styles,
+  uPenyakit in 'uPenyakit.pas' {foPenyakit},
+  uGejala in 'uGejala.pas' {foGejala},
+  uRule in 'uRule.pas' {foRule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Metropolis UI Blue');
+  Application.CreateForm(TfoUtama, foUtama);
+  Application.CreateForm(TfoDiagnosa, foDiagnosa);
+  Application.CreateForm(Tdm, dm);
+  Application.CreateForm(TfoPenyakit, foPenyakit);
+  Application.CreateForm(TfoGejala, foGejala);
+  Application.CreateForm(TfoRule, foRule);
+  Application.Run;
+end.

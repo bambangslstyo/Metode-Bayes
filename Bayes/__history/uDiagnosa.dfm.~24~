@@ -1,0 +1,128 @@
+object foDiagnosa: TfoDiagnosa
+  Left = 0
+  Top = 0
+  BorderStyle = bsSingle
+  Caption = 'Diagnosa'
+  ClientHeight = 347
+  ClientWidth = 484
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lHasil: TLabel
+    Left = 255
+    Top = 200
+    Width = 202
+    Height = 33
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    WordWrap = True
+  end
+  object Button1: TButton
+    Left = 255
+    Top = 144
+    Width = 83
+    Height = 35
+    Caption = '&Proses'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 484
+    Height = 129
+    Align = alTop
+    Caption = 'Pilih Gejala'
+    TabOrder = 1
+    ExplicitWidth = 500
+    object CheckBox1: TCheckBox
+      Left = 32
+      Top = 24
+      Width = 97
+      Height = 17
+      Caption = 'Panas'
+      TabOrder = 0
+    end
+    object CheckBox2: TCheckBox
+      Left = 32
+      Top = 47
+      Width = 97
+      Height = 17
+      Caption = 'Sakit Kepala'
+      TabOrder = 1
+    end
+    object CheckBox3: TCheckBox
+      Left = 32
+      Top = 70
+      Width = 97
+      Height = 17
+      Caption = 'Bersin'
+      TabOrder = 2
+    end
+    object CheckBox4: TCheckBox
+      Left = 32
+      Top = 93
+      Width = 97
+      Height = 17
+      Caption = 'Batuk'
+      TabOrder = 3
+    end
+    object CheckBox5: TCheckBox
+      Left = 168
+      Top = 24
+      Width = 97
+      Height = 17
+      Caption = 'Pilek'
+      TabOrder = 4
+    end
+    object CheckBox6: TCheckBox
+      Left = 168
+      Top = 47
+      Width = 97
+      Height = 17
+      Caption = 'Badan Lemas'
+      TabOrder = 5
+    end
+    object CheckBox7: TCheckBox
+      Left = 168
+      Top = 70
+      Width = 97
+      Height = 17
+      Caption = 'Kedinginan'
+      TabOrder = 6
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Top = 129
+    Width = 233
+    Height = 218
+    Align = alLeft
+    Caption = 'Hasil Diagnosa'
+    TabOrder = 2
+    object DBGridEh1: TDBGridEh
+      Left = 2
+      Top = 15
+      Width = 229
+      Height = 201
+      Align = alClient
+      DataSource = dm.dsKali
+      DynProps = <>
+      ReadOnly = True
+      TabOrder = 0
+      object RowDetailData: TRowDetailPanelControlEh
+      end
+    end
+  end
+end

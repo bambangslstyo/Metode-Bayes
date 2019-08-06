@@ -1,0 +1,36 @@
+unit uDM;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, DBAccess, MyAccess, MemDS;
+
+type
+  Tdm = class(TDataModule)
+    quHitung: TMyQuery;
+    con: TMyConnection;
+    dsHitung: TMyDataSource;
+    quHitungkdPenyakit: TStringField;
+    quHitungbobot: TFloatField;
+    quHitungkdGejala: TIntegerField;
+    quHitungbobotRule: TFloatField;
+    quHitungperkalian: TFloatField;
+    quHitunghasil: TFloatField;
+    quKali: TMyQuery;
+    dsKali: TMyDataSource;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dm: Tdm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

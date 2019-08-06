@@ -1,0 +1,57 @@
+object dm: Tdm
+  OldCreateOrder = False
+  Height = 317
+  Width = 472
+  object quHitung: TMyQuery
+    Connection = con
+    SQL.Strings = (
+      'select *from tbHitung')
+    Active = True
+    Left = 72
+    Top = 16
+    object quHitungkdPenyakit: TStringField
+      FieldName = 'kdPenyakit'
+      Origin = 'tbhitung.kdPenyakit'
+      Size = 5
+    end
+    object quHitungbobot: TFloatField
+      FieldName = 'bobot'
+      Origin = 'tbhitung.bobot'
+    end
+    object quHitungkdGejala: TIntegerField
+      FieldName = 'kdGejala'
+      Origin = 'tbhitung.kdGejala'
+    end
+    object quHitungbobotRule: TFloatField
+      FieldName = 'bobotRule'
+      Origin = 'tbhitung.bobotRule'
+    end
+  end
+  object con: TMyConnection
+    Database = 'dbbayes'
+    Username = 'root'
+    Server = 'localhost'
+    Connected = True
+    LoginPrompt = False
+    Left = 24
+    Top = 16
+  end
+  object dsHitung: TMyDataSource
+    DataSet = quHitung
+    Left = 72
+    Top = 72
+  end
+  object quKali: TMyQuery
+    Connection = con
+    SQL.Strings = (
+      'select * from tbkali')
+    Active = True
+    Left = 152
+    Top = 16
+  end
+  object dsKali: TMyDataSource
+    DataSet = quKali
+    Left = 152
+    Top = 72
+  end
+end
